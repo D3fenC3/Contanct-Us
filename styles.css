@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+#main_div{
+    width: 100%;
+    background-color: #F3E7d1;
+    padding: 5% 10%;
+    
+}
+
+#first_block{
+    background-image: url("./images/first_block_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#our_team{  
+    font-size: 80px;
+    color: white;
+    margin: 0;
+}
+
+#text{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    width: 350px;
+}
+
+#box_under_our_team{  
+    border: 5px solid rgb(255, 255, 255);
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.general-blocks{
+    background-color: white;
+    position: relative;
+    height: 750px;
+    margin-top: 3%;
+}
+
+#ana-park{
+    Font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#second-block-text{
+    position: absolute;
+    text-align: justify;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 12%;
+    height: 750px;
+}
+
+#second-block-image{
+    position: absolute;
+    background-image: url("./images/ana-park.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    height: 750px;
+    width: 50%;
+    left: 50%;
+    padding: 5%;
+}
+
+#second-block-inner-image{
+    background-image: url("./images/ana-park.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;  
+}
+
+.hover-transition{
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    opacity: 0;
+    font-size: 60px;
+    color: white;
+    visibility: hidden;
+}
+
+div.hover-transition:hover{
+    visibility: visible;
+    opacity: 1;
+}
+
+a:hover{
+    color: blue;
+}
+
+#second-block-text div{
+    position: absolute;
+    left: 95%;
+    width: 4%;
+    top: 70%;
+}
+
+#image-3rd-block{
+    width: 50%;
+    height: 100%;
+    padding: 8%;
+    position: absolute;
+    
+}
+
+#text-3rd-block{
+    position: absolute;
+    background-color: #F1EDE2;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    padding-top: 8%;
+    padding-left: 8%;
+    
+}
+
+#text-3rd-block p{
+    font-size: 19px;
+    text-align: center justify;
+}
+
+#text-3rd-block div{
+    position: absolute;
+    left: 95%;
+    width: 4%;
+    top: 70%;
+}
+
+#image-4th-block{
+    background-image: url("./images/s.stiney.jpg");
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-repeat: no-repeat;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+#s-stiney h1{
+    font-size: 120px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 34%;
+}
