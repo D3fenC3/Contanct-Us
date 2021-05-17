@@ -232,3 +232,64 @@ a:hover{
 .larg-icon p{
     position: absolute
 }
+
+#image-5th-block{
+    background-image: url("./images/Sunny-jung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 79%;
+    width: 36%;
+    left: 60%;
+    margin-top: 7%;
+}
+
+#text-5th-block{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+}
+
+#leaf{
+    background-image: url("./images/leaf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45%;
+    width: 37%;
+    top: 55%;
+    position: absolute;
+}
+
+#text-5th-block h1{
+    font-size: 95px;
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    top: 20%;
+    left: 12%;
+}
+
+#text-5th-block p{
+    position: absolute;
+    font-size: 19px;
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    left: 53%;
+    top: 30%;
+
+}
+
+.icon-list{
+    position: absolute;
+    height: 65px;
+    width: 250px;
+    left: 53%;
+    top: 60%;
+}
+
+.icon-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 60px;
+}
