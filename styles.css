@@ -313,31 +313,45 @@ a:hover{
 }
 
 #scroll-images{
-    position: absolute;
-    left: 240px;
-    top: 200px;
-    overflow: scroll;
-    overflow-x: scroll;
+    height: 440px;
+    white-space: nowrap;
+    overflow-x: auto;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+#scroll-images::-webkit-scrollbar {
+    display: none;
 }
 
 .each-image{
     display: inline-flex;
     flex-direction: column;
     margin-right: 4%;
+    height: 400px;
 }
 
 .each-image p{
     font-size: 19px;
     text-align: justify;
     width: 200px;
-    margin-left: 40px;
+    margin-left: 100px;
+    white-space: normal;
+    position: absolute;
+    top: 310px;
+    height: 90px;
+    overflow-y: scroll;
+}
+
+.each-image p::-webkit-scrollbar{
+    display: none;
 }
 
 .pic{
-    
+    position: relative;
     width: 350px;
-    height: 350px;
+    height: 324px;
     background-size: cover;
 
 }
@@ -363,6 +377,28 @@ a:hover{
 }
 
 .hover-padding-small-images{
-    padding-top: 200px;
-    padding-left: 100px;
+    padding-top: 130px;
+    padding-left: 90px;
+}
+
+#block6{
+    margin-bottom: 20%;
+    padding-top: 246px;
+    padding-left: 380px;
+    overflow: hidden;
+}
+
+.last-block-icons{
+    position: absolute;
+    left: 314px;
+    top: 330px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+#more{
+    font-size: 100px;
+    text-align: center;
 }
