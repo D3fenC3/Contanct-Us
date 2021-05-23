@@ -17,6 +17,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 30%;
 }
 
 #our_team{  
@@ -26,15 +27,16 @@ body{
 }
 
 #text{
-    position: absolute;
-    left: 40%;
-    top: 45%;
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
 }
 
 #box_under_our_team{  
     border: 5px solid rgb(255, 255, 255);
-    height: 30px;
+    width: 350px;
     text-align: center;
     color: white;
 }
@@ -44,6 +46,8 @@ body{
     position: relative;
     height: 750px;
     margin-top: 3%;
+    display: flex;
+    flex-direction: column;
 }
 
 #ana-park{
@@ -52,12 +56,24 @@ body{
 }
 
 #second-block-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     position: absolute;
     text-align: justify;
-    width: 50%;
     padding-left: 5%;
-    padding-top: 12%;
     height: 750px;
+    width: 50%;
+}
+
+#vertical-bar{
+    background-color: #F3E7d1;
+    width: 4px;
+    height: 58px;
+    left: 32%;
+    top: 70%;
 }
 
 #second-block-image{
@@ -105,8 +121,6 @@ a:hover{
 
 #second-block-text div{
     position: absolute;
-    left: 95%;
-    width: 4%;
     top: 70%;
 }
 
@@ -143,7 +157,7 @@ a:hover{
 
 .social-media-box{
     position: absolute;
-    left: 95%;
+    left: 93%;
     width: 4%;
     top: 70%;
     font-size: 30px;
