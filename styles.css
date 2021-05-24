@@ -134,12 +134,13 @@ a:hover{
     width: 50%;
     height: 100%;
     padding: 8%;
-    position: absolute;
-    
 }
 
 #text-3rd-block{
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    align-items: flex-start;
     background-color: #F1EDE2;
     width: 50%;
     height: 100%;
@@ -217,12 +218,15 @@ a:hover{
 }
 
 #text-4th-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
     position: absolute;
     width: 50%;
     height: 100%;
     left: 50%;
-    padding-top: 14%;
-    padding-left: 17%;
 }
 
 #text-4th-block p{
@@ -232,12 +236,11 @@ a:hover{
 }
 
 .larg-icon{
-    width: 120px;
+    display: flex;
+    width: 310px;
     font-size: 60px;
-    display: inline-block;
-    position: absolute;
     text-align: center;
-    top: 57%;
+    justify-content: space-around;
 }
 
 .larg-icon a{
