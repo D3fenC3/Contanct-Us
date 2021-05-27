@@ -76,6 +76,11 @@ body{
     top: 70%;
 }
 
+#ana-park-list{
+    left: 29%;
+    top: 68%;
+}
+
 #second-block-image{
     position: absolute;
     background-image: url("./images/ana-park.jpg");
@@ -121,7 +126,6 @@ a:hover{
 
 #second-block-text div{
     position: absolute;
-    top: 70%;
 }
 
 #second-block-text p{
@@ -419,3 +423,71 @@ a:hover{
     font-size: 100px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    #main_div {
+        padding: 3% 3%;
+    }
+    #first_block{
+        padding: 100% 10%;
+    }
+    #our_team {
+        font-size: 55px;
+    }
+    #box_under_our_team{
+        width: 250px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #main_div {
+        padding: 4% 5%;
+    }
+
+    #first_block{
+        padding: 45% 15%;
+    }
+    #our_team {
+        font-size: 66px;
+    }
+    #box_under_our_team{
+        width: 290px;
+    }
+    #second-block-text {
+        display: flex;
+        flex-direction: row;
+        height: 275px;
+        width: 100%;
+        top: 58%;
+        align-items: center;
+    }
+    #ana-park {
+        Font-size: 50px;
+        width: 225px;
+    }
+    #second-block-text p {
+        width: 300px;
+    }
+    #vertical-bar {
+        height: 55px;
+        left: 32%;
+        top: 78%;
+    }
+    #ana-park-list {
+        left: 28%;
+        top: 73%;
+    }
+    #second-block-image {
+        height: 475px;
+        width: 100%;
+        left: 0;
+    }
+
+
+
+}
+    
