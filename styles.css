@@ -160,6 +160,10 @@ a:hover{
     width: 360px;
 }
 
+#goya-park{
+    font-size:80px;
+}
+
 .social-media-box{
     position: absolute;
     left: 93%;
@@ -181,12 +185,37 @@ a:hover{
     position: relative;
 }
 
+#retardness{
+    top: 64%;
+}
+
+#logicness{
+    top: 76%;
+}
+
+#bar1{
+    top: 12%;
+}
+
+#bar2{
+    top: 23%;
+}
+
+
 .inside-bar{
     background-color: #ABC3C0;
     text-align: right;
     position: absolute;
     height: 100%;
     top: 0%;
+}
+
+#retardness-bar{
+    width: 32%;
+}
+
+#logicness-bar{
+    width: 64%;
 }
 
 .bar-title{
@@ -425,18 +454,118 @@ a:hover{
 }
 
 @media only screen and (max-width: 600px) {
+
     #main_div {
         padding: 3% 3%;
     }
+
     #first_block{
         padding: 100% 10%;
     }
+
     #our_team {
         font-size: 55px;
     }
+
     #box_under_our_team{
         width: 250px;
     }
+
+
+    #second-block-text {
+        display: flex;
+        flex-direction: column;
+        height: 325px;
+        width: 100%;
+        top: 50%;
+        align-items: center;
+}
+
+    #ana-park {
+        Font-size: 29px;
+        width: 150px;
+    }
+
+    #second-block-text p {
+        width: 300px;
+    }
+
+    #vertical-bar {
+        height: 55px;
+        left: 8%;
+        top: 80%;
+    }
+
+    #ana-park-list {
+        left: -3%;
+        top: 75%;
+    }
+    
+    #second-block-image {
+        height: 325px;
+        width: 100%;
+        left: 0;
+    }
+
+    .social-media-box {
+        left: 89%;
+    }
+
+    #image-3rd-block {
+        width: 100%;
+        z-index: 30;
+        height: 56%;
+        padding: 0%;
+    }
+    
+    #text-3rd-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 53%;
+        top: 51%;
+        left:0;
+        padding-top: 8%;
+        padding-left: 8%;
+        justify-content: flex-start;   
+    }
+
+    #text-3rd-block p {
+        width: 200px;
+        height: 50px;
+        overflow: scroll;
+
+    }
+
+    #goya-park{
+        font-size: 40px;
+    }
+
+    #retardness{
+        top: 47%;
+        left: 20%;
+    }
+
+    #logicness{
+        top: 63%;
+        left: 20%;
+    }
+
+    .bar{
+        width: 200px;
+    }
+
+    #bar1{
+        top: 4%;
+    }
+    
+    #bar2{
+        top: 16%;
+    }
+
+
+
 
 
 
@@ -451,12 +580,15 @@ a:hover{
     #first_block{
         padding: 45% 15%;
     }
+
     #our_team {
         font-size: 66px;
     }
+
     #box_under_our_team{
         width: 290px;
     }
+    
     #second-block-text {
         display: flex;
         flex-direction: row;
@@ -465,26 +597,75 @@ a:hover{
         top: 58%;
         align-items: center;
     }
+
     #ana-park {
         Font-size: 50px;
         width: 225px;
     }
+
     #second-block-text p {
         width: 300px;
     }
+
     #vertical-bar {
         height: 55px;
         left: 32%;
         top: 78%;
     }
+
     #ana-park-list {
         left: 28%;
         top: 73%;
     }
+    
     #second-block-image {
         height: 475px;
         width: 100%;
         left: 0;
+    }
+
+    #image-3rd-block {
+        width: 100%;
+        z-index: 30;
+        height: 65%;
+        padding: 0%;
+    }
+    
+    #text-3rd-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 44%;
+        top: 56%;
+        left:0;
+        padding-top: 8%;
+        padding-left: 8%;
+        align-content: stretch;    
+    }
+
+    #text-3rd-block p {
+        width: 660px;
+    }
+
+    #retardness {
+        top: 37%;
+        left: 68%;
+    }
+
+    #bar1 {
+        top: -10%;
+        left: 8%;
+    }
+
+    #logicness {
+        top: 63%;
+        left: 68%;
+    }
+    
+    #bar2 {
+        top: 24%;
+        left: -13%;
     }
 
 
